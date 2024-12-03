@@ -1,23 +1,4 @@
-﻿// ------------------------------------------------------------------------------------------------
-// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT License. See License.txt in the project root for license information.
-// ------------------------------------------------------------------------------------------------
-namespace Microsoft.Pricing.PriceList;
-
-using Microsoft.CRM.Campaign;
-using Microsoft.CRM.Contact;
-using Microsoft.Finance.Currency;
-using Microsoft.Pricing.Asset;
-#if not CLEAN25
-using Microsoft.Pricing.Calculation;
-#endif
-using Microsoft.Pricing.Source;
-using Microsoft.Sales.Customer;
-using Microsoft.Sales.Pricing;
-using System.Text;
-using Microsoft.Inventory.Item;
-
-page 50101 "Item Prices Overview"
+﻿page 50101 "Item Prices Overview"
 {
     Caption = 'Prices Overview';
     DataCaptionExpression = PageCaptionText;
